@@ -215,9 +215,7 @@
               <localRepositoryPath>${project.build.directory}/local-repo</localRepositoryPath>
               <projectsDirectory>src/it/projects</projectsDirectory>
               <setupIncludes>
-                <setupInclude>setup-01/pom.xml</setupInclude>
-                <setupInclude>setup-02-jar/pom.xml</setupInclude>
-                <setupInclude>setup-03-jar-module-info/pom.xml</setupInclude>
+                <setupInclude>setup/pom.xml</setupInclude>
               </setupIncludes>
               <pomIncludes>
                 <pomInclude>**/pom.xml</pomInclude>
