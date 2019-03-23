@@ -269,7 +269,7 @@ public class JLinkMojo
         File jmodsFolder;
         if ( sourceJdkModules != null && sourceJdkModules.isDirectory() )
         {
-            jmodsFolder = new File ( sourceJdkModules, JMODS );
+            jmodsFolder = new File( sourceJdkModules, JMODS );
         }
         else
         {
@@ -412,7 +412,7 @@ public class JLinkMojo
                 }
             }
 
-        }   
+        }
         catch ( IOException e )
         {
             getLog().error( e.getMessage() );
